@@ -27,6 +27,11 @@ export const todoError = error => ({
 export const requestTodos = () => dispatch => (
   TodoAPIUtil.fetchTodos().then(todos => dispatch(receiveTodos(todos)))
 );
+
+export const createTodo = (todo) => dispatch => (
+  TodoAPIUtil.postTodo(todo).then(tod => dispatch(receiveTodo(tod)) )
+);
+
 //
 // import { requestTodos } from './todo_actions';
 //
