@@ -5,8 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-t = Todo.create(title: "Title", body: "Body", done: false)
+j = Todo.create(title: "Tract McGrady", body: "T-Mac tha G.O.A.T", done: true)
+r = Todo.create(title: "Steph Curry Function", body: "Baby Faced Assassin", done: true)
+s = Todo.create(title: "Kyrie Irving", body: "Uncle Drew", done: true)
+t = Todo.create(title: "Kevin Durant", body: "Cupcake", done: true)
 u = Todo.create(title: "Damian Lillard", body: "Dame D.O.L.L.A.", done: true)
 v = Todo.create(title: "CJ McCollum", body: "3J", done: true)
 w = Todo.create(title: "Jusuf Nurkic", body: "Big Nurk", done: false)

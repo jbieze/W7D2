@@ -35,7 +35,7 @@ class TodoForm extends React.Component {
             className="input"
             ref="title"
             value={this.state.title}
-            placeholder="buy milk"
+            placeholder="Fundamentals"
             onChange={this.update('title')}
             required/>
         </label>
@@ -46,7 +46,7 @@ class TodoForm extends React.Component {
             cols='20'
             value={this.state.body}
             rows='5'
-            placeholder="2% or whatever is on sale!"
+            placeholder="Make Pop proud. No smiling."
             onChange={this.update('body')}
             required></textarea>
         </label>

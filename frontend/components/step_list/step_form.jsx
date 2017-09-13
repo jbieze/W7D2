@@ -36,7 +36,7 @@ class StepForm extends React.Component {
             className="input"
             ref="title"
             value={ this.state.title }
-            placeholder="walk to store"
+            placeholder="Learn to play basketball"
             onChange={ this.update('title') }
             required />
         </label>
@@ -45,7 +45,7 @@ class StepForm extends React.Component {
             className="input"
             ref="body"
             value={ this.state.body }
-            placeholder="google store directions"
+            placeholder="Ball Is LIFE!"
             onChange={ this.update('body') }
             required />
         </label>
